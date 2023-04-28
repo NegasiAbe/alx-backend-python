@@ -1,9 +1,10 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
+''' module Task 7.
+'''
+from typing import Union, Tuple
 
-'''Complex types - string and 
-int/float to tuple'''
 
-from typing import List, Union
-
-def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
-    return sum(mxd_lst)
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
+    '''Converts a key and its value to a tuple 
+     '''
+    return (k, float(v**2))

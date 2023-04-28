@@ -2,6 +2,15 @@
 ''' module for Task 2.
 '''
 
-def to_str(n: float) -> str:
-    "float to string conversion"
-    return str(n)
+def floor(n: float) -> int:
+    '''float to string conversion.
+    '''
+    return int(n)
+
+
+
+
+def floor(a: float) -> int:
+    '''Computes the floor of a floating-point number.
+    '''
+    return int(a)

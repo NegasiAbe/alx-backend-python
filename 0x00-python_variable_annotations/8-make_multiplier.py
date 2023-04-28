@@ -1,11 +1,10 @@
-#!/usr/bin/python3
-
-'''Complex types - functions'''
-
+#!/usr/bin/env python3
+'''Task 8's module.
+'''
 from typing import Callable
 
-def make_multiplier(multiplier: float) -> Callable[[float], float]:
-    def multiplier_func(num: float) -> float:
-        return num * multiplier
-    return multiplier_func
 
+def make_multiplier(multiplier: float) -> Callable[[float], float]:
+    '''multiplier function for the given float.
+    '''
+    return lambda x: x * multiplier
