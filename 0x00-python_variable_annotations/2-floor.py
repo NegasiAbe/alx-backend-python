@@ -2,12 +2,11 @@
 ''' module for Task 2.
 '''
 
+
 def floor(n: float) -> int:
     '''float to string conversion.
     '''
     return int(n)
-
-
 
 
 def floor(a: float) -> int:
