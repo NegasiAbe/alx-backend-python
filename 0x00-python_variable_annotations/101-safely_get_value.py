@@ -17,3 +17,4 @@ def safely_get_value(dct: Mapping, key: Any, default: Def = None) -> Res:
         return dct[key]
     else:
         return default
+    
