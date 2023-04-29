@@ -1,8 +1,9 @@
-#!/usr/bin/python3
-'''Task 1's module is as follows.
+#!/usr/bin/env python3
+''' module Task.
 '''
 
 
 def concat(str1: str, str2: str) -> str:
-    "a function which concatnates strings"
+    '''Concatenates two strings.
+    '''
     return str1 + str2
